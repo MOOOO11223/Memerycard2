@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/0124B.loader.js";
+      var loaderUrl = buildUrl + "/0207_2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/0124B.data",
-        frameworkUrl: buildUrl + "/0124B.framework.js",
-        codeUrl: buildUrl + "/0124B.wasm",
+        dataUrl: buildUrl + "/0207_2.data",
+        frameworkUrl: buildUrl + "/0207_2.framework.js",
+        codeUrl: buildUrl + "/0207_2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project",
@@ -93,11 +93,11 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-
         canvas.style.width = "100%";
         canvas.style.height = "100%";
       }
 
+      canvas.style.background = "url('" + buildUrl + "/0207_2.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
